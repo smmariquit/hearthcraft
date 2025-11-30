@@ -26,11 +26,32 @@ const mc = Press_Start_2P({
 
 export const metadata = {
   title: "HearthCraft",
-  description: "HearthCraft SMP",
+  description: "\"One day, we'll look back at where we started and be amazed by how far we've come\" — Technoblade",
   icons: {
     icon: "/hclogo.png",
     shortcut: "/hclogo.png",
     apple: "/hclogo.png",
+  },
+  openGraph: {
+    title: "HearthCraft",
+    description: "\"One day, we'll look back at where we started and be amazed by how far we've come\" — Technoblade",
+    url: "https://hearthcraft.example", // Optional: replace with real URL
+    siteName: "HearthCraft",
+    images: [
+      {
+        url: "/hearthcraft.png",
+        width: 1200,
+        height: 630,
+        alt: "HearthCraft",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HearthCraft",
+    description: "\"One day, we'll look back at where we started and be amazed by how far we've come\" — Technoblade",
+    images: ["/hearthcraft.png"],
   },
 };
 

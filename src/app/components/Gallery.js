@@ -12,7 +12,7 @@ export default function Gallery() {
     files = fs.readdirSync(galleryDir);
   } catch (_) {}
 
-  const imageExt = new Set([".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"]);
+  const imageExt = new Set([".webp", ".webp", ".webp", ".webp", ".gif", ".svg"]);
   const videoExt = new Set([".mp4", ".webm", ".mov", ".m4v"]);
 
   const metaByFile = new Map(galleryMeta.map(m => [m.file, m]));

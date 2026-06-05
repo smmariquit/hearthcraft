@@ -65,7 +65,7 @@ body {
 
 /* Repeating dirt pattern variant */
 .hero.hero--pattern {
-  background-image: url('/dirt.jpg');
+  background-image: url('/dirt.webp');
   background-repeat: repeat;
   background-size: 256px 256px; /* adjust tile size if needed */
   image-rendering: pixelated;
@@ -75,7 +75,7 @@ body {
 /* Alternative top-aligned layout using repeating dirt background */
 .pattern-page {
   min-height: 100vh;
-  background-image: url('/dirt.jpg');
+  background-image: url('/dirt.webp');
   background-repeat: repeat;
   background-size: 256px 256px;
   image-rendering: pixelated;

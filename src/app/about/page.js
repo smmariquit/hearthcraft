@@ -7,7 +7,7 @@ export default function About() {
       style={{ position: "relative", width: "100%", minHeight: "100vh", overflow: "hidden" }}
     >
       <Image
-        src="/hearthcraft.png"
+        src="/hearthcraft.webp"
         alt="HearthCraft Background"
         fill
         priority

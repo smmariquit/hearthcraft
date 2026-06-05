@@ -8,7 +8,7 @@ export default function Memes() {
   let files = [];
   try { files = fs.readdirSync(dir); } catch (_) {}
 
-  const imageExt = new Set([".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"]);
+  const imageExt = new Set([".webp", ".webp", ".webp", ".webp", ".gif", ".svg"]);
   const videoExt = new Set([".mp4", ".webm", ".mov", ".m4v"]);
 
   const metaByFile = new Map(memesMeta.map(m => [m.file, m]));

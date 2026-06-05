@@ -28,9 +28,9 @@ export const metadata = {
   title: "HearthCraft",
   description: "\"One day, we'll look back at where we started and be amazed by how far we've come\" — Technoblade",
   icons: {
-    icon: "/hclogo.png",
-    shortcut: "/hclogo.png",
-    apple: "/hclogo.png",
+    icon: "/hclogo.webp",
+    shortcut: "/hclogo.webp",
+    apple: "/hclogo.webp",
   },
   openGraph: {
     title: "HearthCraft",
@@ -39,7 +39,7 @@ export const metadata = {
     siteName: "HearthCraft",
     images: [
       {
-        url: "/hearthcraft.png",
+        url: "/hearthcraft.webp",
         width: 1200,
         height: 630,
         alt: "HearthCraft",
@@ -51,7 +51,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "HearthCraft",
     description: "\"One day, we'll look back at where we started and be amazed by how far we've come\" — Technoblade",
-    images: ["/hearthcraft.png"],
+    images: ["/hearthcraft.webp"],
   },
 };
 

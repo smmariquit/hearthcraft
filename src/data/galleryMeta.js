@@ -10,13 +10,13 @@ export const galleryMeta = [
     credits: "Captured by Admin"
   },
   {
-    file: "annihila.png",
+    file: "annihila.webp",
     title: "Annihila",
     description: "Character concept art showcasing unique armor and style.",
     credits: "Art by Community Member"
   },
   {
-    file: "chair.png",
+    file: "chair.webp",
     title: "Lonely Chair",
     description: "Minimalist scene featuring a chair in the void—symbolic.",
     credits: "Screenshot by Player"
@@ -28,7 +28,7 @@ export const galleryMeta = [
     credits: "Build by FloralTeam"
   },
   {
-    file: "murushi.png",
+    file: "murushi.webp",
     title: "Murushi",
     description: "Portrait of Murushi in full gear, looking into the distance.",
     credits: "Art by Fan Artist"
@@ -46,7 +46,7 @@ export const galleryMeta = [
     credits: "Community Collaboration"
   },
   {
-    file: "puffer.png",
+    file: "puffer.webp",
     title: "Puffer Guardian",
     description: "Guardian statue inspired by ocean mobs and ancient ruins.",
     credits: "Build by OceanicGuild"
@@ -58,7 +58,7 @@ export const galleryMeta = [
     credits: "Build by OceanicGuild"
   },
   {
-    file: "snide.png",
+    file: "snide.webp",
     title: "Snide",
     description: "A close-up render of Snide in ceremonial attire.",
     credits: "Render by Snide"

@@ -16,7 +16,7 @@ export default function Home() {
           {/* Top logos */}
           <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
             <Image
-              src="/hclogo.png"
+              src="/hclogo.webp"
               alt="HearthCraft Logo"
               width={64}
               height={64}
@@ -24,7 +24,7 @@ export default function Home() {
               style={{ width: "auto", height: "64px" }}
             />
             <Image
-              src="/hearthchan.png"
+              src="/hearthchan.webp"
               alt="HearthChan"
               width={64}
               height={64}

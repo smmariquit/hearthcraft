@@ -1,3 +1,5 @@
+// src/app/components/Content.js
+
 import fs from "fs";
 import path from "path";
 import GalleryGrid from "./GalleryGrid";

@@ -1,3 +1,5 @@
+// src/app/components/Gallery.js
+
 import fs from "fs";
 import path from "path";
 import Image from "next/image";

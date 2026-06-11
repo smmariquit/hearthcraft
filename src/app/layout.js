@@ -1,3 +1,5 @@
+// src/app/layout.js
+
 import { Geist, Geist_Mono, Playfair_Display, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 

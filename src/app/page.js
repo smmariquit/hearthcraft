@@ -1,3 +1,5 @@
+// src/app/page.js
+
 import Image from "next/image";
 import Gallery from "./components/Gallery";
 

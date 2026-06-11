@@ -1,3 +1,5 @@
+// src/data/galleryMeta.js
+
 // Image metadata schema for gallery items.
 // Each entry ties together image URL, title, description, and credits.
 // Use file names exactly as they appear in /public/gallery.

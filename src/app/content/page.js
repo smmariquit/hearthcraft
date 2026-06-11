@@ -1,3 +1,5 @@
+// src/app/content/page.js
+
 import Content from "../components/Content";
 
 export default function ContentPage() {

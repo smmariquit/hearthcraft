@@ -12,9 +12,9 @@ export default function Home() {
     >
       <div
         className="hero-overlay"
-        style={{ position: "absolute", inset: 0, background: "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))", zIndex: 0, pointerEvents: "none" }}
+        style={{ position: "absolute", inset: 0, background: "linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35))", zIndex: 1, pointerEvents: "none" }}
       />
-      <div className="hero-content" style={{ position: "relative", zIndex: 1, display: "grid", gridTemplateRows: "auto auto 1fr", alignItems: "start", justifyItems: "center", minHeight: "100vh", textAlign: "center", color: "white", padding: "2rem 1rem" }}>
+      <div className="hero-content" style={{ position: "relative", zIndex: 2, display: "grid", gridTemplateRows: "auto auto 1fr", alignItems: "start", justifyItems: "center", minHeight: "100vh", textAlign: "center", color: "white", padding: "2rem 1rem" }}>
           {/* Top logos */}
           <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
             <Image

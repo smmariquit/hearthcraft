@@ -1,3 +1,5 @@
+// src/app/about/page.js
+
 import Image from "next/image";
 
 export default function About() {

@@ -1,3 +1,5 @@
+// src/app/components/GalleryGrid.js
+
 'use client';
 import { useState } from 'react';
 import { createPortal } from 'react-dom';

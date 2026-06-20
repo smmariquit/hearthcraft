@@ -1,3 +1,5 @@
+// src/app/why/page.js
+
 import Image from "next/image";
 
 export default function About() {

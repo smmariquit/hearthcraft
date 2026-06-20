@@ -1,3 +1,5 @@
+/* src/app/globals.css */
+
 @import "tailwindcss";
 
 :root {
@@ -65,11 +67,22 @@ body {
 
 /* Repeating dirt pattern variant */
 .hero.hero--pattern {
+  background-color: #5c4a32;
+  position: relative;
+  isolation: isolate;
+}
+
+.hero.hero--pattern::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
   background-image: url('/dirt.webp');
   background-repeat: repeat;
-  background-size: 256px 256px; /* adjust tile size if needed */
+  background-size: 256px 256px;
   image-rendering: pixelated;
   filter: blur(0.5px);
+  pointer-events: none;
 }
 
 /* Alternative top-aligned layout using repeating dirt background */

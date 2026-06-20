@@ -1,3 +1,5 @@
+// src/app/memes/page.js
+
 import Memes from "../components/Memes";
 
 export default function MemesPage() {

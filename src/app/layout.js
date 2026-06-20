@@ -1,3 +1,5 @@
+// src/app/layout.js
+
 import { Geist, Geist_Mono, Playfair_Display, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 
@@ -28,9 +30,8 @@ export const metadata = {
   title: "HearthCraft",
   description: "\"One day, we'll look back at where we started and be amazed by how far we've come\" — Technoblade",
   icons: {
-    icon: "/hclogo.webp",
-    shortcut: "/hclogo.webp",
-    apple: "/hclogo.webp",
+    icon: [{ url: "/hclogo.webp", type: "image/webp" }],
+    apple: [{ url: "/hclogo.webp", type: "image/webp" }],
   },
   openGraph: {
     title: "HearthCraft",

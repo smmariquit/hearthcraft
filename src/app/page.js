@@ -45,11 +45,12 @@ export default function Home() {
             <a href="/why" style={{ color: "inherit", textDecoration: "none" }}>Why?</a>
             <span style={{ margin: "0 0.5rem" }}>|</span>
             <a href="https://www.planetminecraft.com/server/hearthcraft-4239364/?__cf_chl_tk=sGQmObFQhyjcYg8YwAQJWUVXyBpzEaS4sq38NYewsJI-1764500215-1.0.1.1-vlJuIFL3kThSIyNi3NiIgnlN7c0ujmJ_3O7g_W4tf78" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>PlanetMinecraft</a>
-            {/* <span style={{ margin: "0 0.5rem" }}>|</span>
-            <a href="/memes" style={{ color: "inherit", textDecoration: "none" }}>Memes</a>
-            <span style={{ margin: "0 0.5rem" }}>|</span>
-            <a href="/content" style={{ color: "inherit", textDecoration: "none" }}>Content</a> */}
           </nav>
+          <p style={{ marginTop: "0.35rem", fontSize: "0.6rem", opacity: 0.4 }}>
+            <a href="/privacy" style={{ color: "inherit", textDecoration: "none" }}>Privacy</a>
+            {" · "}
+            <a href="/terms" style={{ color: "inherit", textDecoration: "none" }}>Terms</a>
+          </p>
           <h2 className="gallery-title text-sm">"One day, we'll look back at where we started and be amazed by how far we've come" — Technoblade <br /> April 2018 – April 2025</h2>
           {/* Scrollable gallery area within fixed hero */}
           <div style={{ width: "100%", height: "100%", overflowY: "auto" }}>

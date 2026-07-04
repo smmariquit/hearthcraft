@@ -35,7 +35,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-
 ---
 *If this project helped you out, consider [treating me to a coffee](https://kape.stimmie.dev) ☕*
 
@@ -43,7 +42,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - **Tech Stack:** React, TailwindCSS, Next.js, Node.js/NPM
 - **Repository Size:** 131 tracked files
 - **Latest Update:** `1592f51 chore: add stale issue and PR validators`
-
 
 ---
 *☕ If you found this project useful, you can support my work at [kape.stimmie.dev](https://kape.stimmie.dev)!*

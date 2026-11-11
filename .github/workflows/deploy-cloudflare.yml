@@ -1,9 +1,8 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare Workers
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,17 +17,13 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - name: Deploy preview
-        if: github.event_name == 'pull_request'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out --project-name=hearthcraft --branch=pr-${{ github.event.pull_request.number }}
       - name: Deploy production
         if: github.ref == 'refs/heads/main'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy out --project-name=hearthcraft --branch=main
+          # The action's default Wrangler (3.90) cannot read wrangler.jsonc.
+          wranglerVersion: "4.90.0"
+          # Static assets Worker (wrangler.jsonc); the old Pages project is no longer served.
+          command: deploy

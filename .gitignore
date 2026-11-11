@@ -43,3 +43,5 @@ next-env.d.ts
 # accidental build artifacts
 /dist/
 .astro/
+
+.wrangler

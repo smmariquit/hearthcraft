@@ -1,0 +1,11 @@
+// Cloudflare Workers static assets. Build first, then: npx wrangler deploy
+{
+  "name": "hearthcraft",
+  "account_id": "847a37119fd03f8765b62a6775a6c204",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
